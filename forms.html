@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regsistration details</title>
+</head>
+<body>
+    <h3>enter your details for Regsistration</h3>
+
+
+    <form action="">
+        <label for="first name">first name:-</label>
+        <input id="first name" type="text" name="fisrtname">
+
+        <label for="second name">second name:-</label>
+        <input id="second name" type="text" name="second name">
+        <br><br>
+
+        <label for="enter your age">enter your age:-</label>
+        <input id="enter your age" type="number" name="age" min="1" max="50">
+        <br><br>
+
+        <label for="date of birth">date of birth:-</label>
+        <input id="date of birth" type="date" name="date">
+        <br><br>
+
+        <label for="email">Email id:-</label>
+        <input id="email" type="email" name="email">
+
+        <label for="password">password</label>
+        <input id="password" type="password" name="password">
+        <br><br>
+
+        <p>enter the name of the course:-</p> 
+        <input id="course" type="checkbox" name="carrer" value="web development">
+        <label for="course">web development</label>
+        <br>
+        <input id="cor" type="checkbox" name="carrer" value="python programming">
+        <label for="cor">python programming</label>
+        <br>
+        <input id="cours" type="checkbox" name="carrer" value="data science">
+        <label for="cours">data science</label>
+        <br><br>
+
+        <label for="degree">choose a degree</label>
+        <select name="degree" id="degree">
+            <option value="ssc">ssc</option>
+            <option value="intermediate">intermediate</option>
+            <option value="UG">UG</option>
+            <option value="PG">PG</option>
+        </select>
+        <br><br>
+
+        <label for="about">Tell us about yourself</label>
+        <textarea name="about yourself" id="about" cols="30" rows="10"></textarea>
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+        <!-- placeholder -->
+        <label for="name">YOUR NAME HERE</label>
+        <input id="name" type="text" placeholder="YOUR NAME HERE"  name="your name here">
+        <br><br>
+        
+        <!-- maxlength in a text -->
+        <label for="random word">choose a random word</label>
+        <input id="random word" type="text" maxlength="10">
+        <br><br>
+
+        <!-- creating a drop down list -->
+        <label for="random word">choose a random word</label>
+        <select name="random" id="random word">
+            <option value="q">q</option>
+            <option value="w">w</option>
+            <option value="e">e</option>
+            <option value="r">r</option>
+            <option value="t">t</option>
+            <option value="y">y</option>
+        </select>
+        <br><br>
+
+        <input id="SUDI" type="text" readonly value="SUDI VENKATA SAI SUJITH">
+
+
+
+    </form>
+    
+</body>
+</html>
